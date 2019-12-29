@@ -30,7 +30,7 @@
 
         <framework src="src/android/mypos.gradle" custom="true" type="gradleReference"/>
         <source-file src="src/android/myPOS.java" target-dir="src/com/mrwinston/mypos/"/>
-        <resource-file src="src/android/slavesdk.aar" target="src/com/mypos/slavesdk.aar" />
+        <lib-file src="src/android/slavesdk.aar" />
     </platform>
 
     <platform name="ios">
