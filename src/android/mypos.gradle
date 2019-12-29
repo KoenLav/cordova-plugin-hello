@@ -3,5 +3,5 @@ repositories {
 }
 
 dependencies {
-    compile (name: 'slavessdk', ext:'aar')
+    compile (name: 'slavesdk', ext:'aar')
 }
