@@ -1,9 +1,7 @@
 repositories {
-    flatDir {
-        dirs 'src/main/java/eu/leupau'
-    }
+    jcenter()
 }
 
 dependencies {
-    compile (name: 'icardpossdk', ext:'aar')
+    compile (name: 'slavessdk', ext:'aar')
 }
